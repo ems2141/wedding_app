@@ -1,3 +1,15 @@
-  <h1 class="title">
-    Welcome to Ellie and Nick's wedding website!
-  </h1>
+<h1 class="title"><br>
+  Welcome to Ellie and Nick's wedding website!
+  <br>
+  <br>
+</h1>
+
+<h2 class="welcome">
+  <% if guests != nil %>
+    <% guests.each do |guest| %>
+      Hello <%= guest[:name] %>!
+    <% end %>
+  <% end %>
+</h2>
+
+<a href="/register">Register</a>

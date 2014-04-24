@@ -4,3 +4,28 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.welcome {
+    font-family: 'Clicker Script', cursive;
+    background-color: #8264a1;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    margin: 0 auto;
+    background-color: #d1491b;
+    /*width: 550px;*/
+}
+
+.wrapper2 {
+    min-height: 100%;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    /*margin: 0 auto;*/
+    background: #a6b5de;
+    /*width: 550px;*/
+}
